@@ -8,6 +8,19 @@ Notes for the PC game "Empyrion Galactic Survival"
 
 Small vessels can only warp within the same solar system. Trying to warp to another system fails with the message "0.0LY range". Inter-system warp is only possible with a capital vessel (CV).
 
+## Power management
+
+### Solar Power
+
+**Yellow lights**: Current amount of sunlight hitting the panels  
+**Green lights**: Theoretical maximum production
+
+> Green lights should always be at 4, yellow ones should be at 4 at noon when the sun is highest.
+
+- Build your base near the equator to get the most sunlight.
+- Choose a planet / location with a clean atmosphere (no toxic gases or the like).
+- Choose a planet not too far away from the sun.
+
 ## Editing game files
 
 ### Increased solar panel efficiency
