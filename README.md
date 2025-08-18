@@ -38,3 +38,5 @@ Look for `SolarPanelSmallBlocks` if you also wish to adjust the small panels.
 1. Open the file `Content/Configuration/BlocksConfig.ecf`.
 2. Search for `SolarPanelBlocks`.
 3. Increase the value of `MaxCount`.
+4. Search for `SolarPanelSlope`.
+5. Increase the value of `MaxCount` to the same value.
