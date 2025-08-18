@@ -12,14 +12,16 @@ Small vessels can only warp within the same solar system. Trying to warp to anot
 
 ### Increased solar panel efficiency
 
-1. Open the file `Content/Configuration/BlocksConfig.ecf`
+1. Open the file `Content/Configuration/BlocksConfig.ecf`.
 2. Search for `SolarPanelBlocks`.
-3. Increase the value of `SolarPanelEfficiency`
+3. Increase the value of `SolarPanelEfficiency`.
 
-> NOTE: Chech the output of the solar system's sun. If the planet only receives very little sunlight, increasing the efficiency will have little effect.
+Look for `SolarPanelSmallBlocks` if you also wish to adjust the small panels.
+
+> NOTE: Check the output of the solar system's sun. If the planet only receives very little sunlight, increasing the efficiency will have little effect.
 
 ### Increase the solar panel build limit
 
-1. Open the file `Content/Configuration/BlocksConfig.ecf`
+1. Open the file `Content/Configuration/BlocksConfig.ecf`.
 2. Search for `SolarPanelBlocks`.
 3. Increase the value of `MaxCount`.
