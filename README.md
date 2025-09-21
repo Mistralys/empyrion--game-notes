@@ -43,9 +43,24 @@ Look for `SolarPanelSmallBlocks` if you also wish to adjust the small panels.
 
 ### Increased Teleporter range
 
+Teleporter Block names:
+
+- TeleporterBA
+- TeleporerBAT1
+- TeleporterBAEpic
+- TeleporterBAEvent
+- TeleporterCV
+
+1. Open the file `Content/Configuration/BlocksConfig.ecf`.
+2. Search for the teleporter entries.
+3. Look for the `RangeLY` property, add it if it does not exist.
+5. Set the value to use (I have gone as high as 9000). 
+
+> As the comments in the file show, a value of `0` restricts teleportation to the current system.
+
+### Increased Warp Drive range
+
 1. Open the file `Content/Configuration/BlocksConfig.ecf`.
 2. Search for `RangeLY`.
 3. This will find both warp drive blocks and teleporter blocks.
 4. Adjust the value of `RangeLY`.
-
-> As the comments in the file show, a value of `0` restricts teleportation to the current system.
